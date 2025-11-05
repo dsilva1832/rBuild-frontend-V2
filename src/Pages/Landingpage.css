@@ -1,0 +1,45 @@
+body{
+    overflow-x: hidden;
+}
+#bg1{
+    background-image: url("https://icehrm.com/blog/content/images/2023/11/pexels-mart-production-7643895.jpg");
+    height: 665px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+.box{
+    background-color: rgba(240, 248, 255, 0.455);
+}
+#bg2{
+    background-image: url("https://www.4cornerresources.com/wp-content/uploads/2020/11/Job-interview-with-two-interviewers-scaled.jpeg");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media (max-width: 768px){
+    .row{
+        flex-direction: column;
+    }
+
+    .col-4, .col-6, .col-3{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+
+    .box{
+        padding: 20px;
+    }
+
+    h3, h4{
+        font-size: 1.5rem;
+    }
+}
