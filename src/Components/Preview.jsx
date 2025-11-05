@@ -6,7 +6,9 @@ import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
 import { FaFileDownload, FaHistory } from "react-icons/fa";
 import Edit from '../Components/Edit'
-import jsPDF from 'jsPDF';
+// import jsPDF from 'jsPDF';
+import { jsPDF } from "jspdf";
+
 import html2canvas from 'html2canvas';
 import { addDownloadHistoryAPI } from "../services/allAPI";
 import { Link } from "react-router-dom";
